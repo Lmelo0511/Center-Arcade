@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../projeto.java/CSS/estilo3.css">
+    <title>Jogo de adivinhação</title>
+  </head>
+  
+  <body class="corpo">
+
+    <header class="Menu__link">
+      <div class="Menu">
+        <a class="voltar" href="jogo2.html">Voltar</a>
+      </div>
+      <div class="Menu2">
+        <a class="inicio" href="jogo1.html">Início</a>
+      </div>
+    </header>  
+
+    <div class="Jogatina">
+    
+      <h1 class="Titulo">Advinhe o número</h1>
+      <hr>
+      <label class="Digite__numero" for="numero">Jogue Um Numero de 0 a 10:</label>
+      <br>
+      <input class="informando__numero" type="number" id="numero">
+      
+      <button class="botao" onclick="jogar()">Jogar</button>
+      <br>
+      <br>
+      <p class="informando__mensagem" id="mensagem"></p>
+      
+      <button class="reiniciando__jogo" onclick="reiniciarJogo()">Jogar Novamente</button>
+
+    </div>
+
+    <script src="../projeto.java/src/JS/jogo.js"></script>
+
+  </body>
+  
+</html>

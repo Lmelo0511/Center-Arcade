@@ -1,0 +1,196 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: inline-flex;
+}
+.Menu{
+    padding-top: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+.Menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.Menu2{
+    margin-left: -15px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.Menu2 a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.corpo{
+    background-image: url("../IMG/depositphotos_66650337-stock-photo-numbers-3d-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Jogatina{
+    position: absolute;
+    background-color: rgba(105, 105, 105, 1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 20px;
+}
+.Titulo{
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+hr{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.Digite__numero{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.informando__numero{
+    padding: 11px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 50%;
+    align-items: center;
+    border: none;
+    float: left;
+    justify-content: space-between;
+}
+.botao{
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    width: 50%;
+    border: none;
+    float: right;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+.informando__mensagem{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 8%;
+    text-align: center;
+    color: white;
+}
+.reiniciando__jogo{
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    background-color: dodgerblue;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+@media screen and (max-width: 414px){
+    .Jogatina{
+        top: 70%;
+        padding: 40px;
+    }
+    .Titulo{
+        font-size: 20px;
+    }
+    .Digite__numero{
+        font-size: 15px;
+        margin-left: -3%;
+    }
+    .reiniciando__jogo{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .informando__mensagem{
+        font-size: 15px;
+    }
+    .Menu{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 375px){
+    .Jogatina{
+        top: 70%;
+        padding: 30px;
+    }
+    .Titulo{
+        font-size: 17px;
+    }
+    .Digite__numero{
+        font-size: 15px;
+        margin-left: -3%;
+    }
+    .reiniciando__jogo{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .informando__mensagem{
+        font-size: 15px;
+    }
+    .Menu{
+        font-size: 17px;
+    }
+    .Menu2{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 320px){
+    .Jogatina{
+        top: 70%;
+        padding: 15px;
+    }
+    .Titulo{
+        font-size: 15px;
+    }
+    .Digite__numero{
+        font-size: 13px;
+        margin-left: -3%;
+    }
+    .reiniciando__jogo{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .informando__mensagem{
+        font-size: 15px;
+    }
+    .Menu{
+        font-size: 15px;
+    }
+    .Menu2{
+        font-size: 15px;
+    }
+}
