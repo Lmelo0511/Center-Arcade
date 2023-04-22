@@ -86,7 +86,7 @@ header {
     font-size: 15px;
 } 
 .Iniciar__jogo {
-    color: black;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     padding: 10px;
@@ -134,7 +134,7 @@ header {
         margin-left: 83px;
     } 
     .Iniciar__jogo {
-        color: black;
+        color: white;
         text-decoration: none;
         border-radius: 5px;
         padding: 10px;
@@ -182,7 +182,7 @@ header {
         margin-left: 67px;
     } 
     .Iniciar__jogo {
-        color: black;
+        color: white;
         text-decoration: none;
         border-radius: 5px;
         padding: 10px;
@@ -230,7 +230,7 @@ header {
         margin-left: 43px;
     } 
     .Iniciar__jogo {
-        color: black;
+        color: white;
         text-decoration: none;
         border-radius: 5px;
         padding: 10px;

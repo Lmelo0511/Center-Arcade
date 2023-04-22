@@ -1,0 +1,125 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: inline-flex;
+}
+.Menu{
+    position: fixed;
+    top: 0;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+.Menu a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.Menu2{
+    position: fixed;
+    top: 0;
+    margin-left: 2%;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.Menu2 a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 55px;
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+p.pontuacao{
+    position: fixed;
+    top: 7.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 15px;
+    color: white;
+    padding: 10px;
+    background-color: dodgerblue;
+    width: 9.58%;
+    font-size: 15px;
+}
+#canvas{
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 15px;
+}
+.corpo{
+    background-color: darkgreen;
+}
+.cobra{
+    background-color: green;
+}
+.comida{
+    background-color: red;
+}
+@media screen and (max-width: 414px) {
+    .Menu2{
+        position: fixed;
+        top: 0;
+        margin-left: 7%;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    p.pontuacao{
+        width: 34.15%;
+        top: 7.8%;
+    }
+    #canvas{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Menu{
+        font-size: 15px;
+    }
+    .Menu2{
+        margin-left: 5%;
+        font-size: 15px;
+    }
+    p.pontuacao{
+        width: 31.60%;
+        top: 8%;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .Menu{
+        font-size: 15px;
+    }
+    .Menu2{
+        margin-left: 6%;
+        font-size: 15px;
+    }
+    p.pontuacao{
+        width: 37%;
+        top: 8%;
+        font-size: 15px;
+    }
+}
