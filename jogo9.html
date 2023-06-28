@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/estilo9.css">
+        <title>Document</title>
+    </head>
+    <body class="corpo">
+        <header class="Menu__link">
+            <div class="Menu">
+                <a class="voltar" href="jogo8.html">Voltar</a>
+            </div>
+            <div class="Menu2">
+              <a class="inicio" href="jogo1.html">Início</a>
+            </div>
+            <div class="emojis">
+                <br>
+                <p class="emoji" id="pedra">0 - ✊🏻</p>
+                <p class="emoji" id="papel">1 - ✋🏻</p>
+                <p class="emoji" id="tesoura">2 - ✌🏻</p>
+                <br>
+                <p class="score">Jogador: <span id="pontuacaoJogador">0</span></p>
+                <p class="score">Computador: <span id="pontuacaoComputador">0</span></p>
+            </div>
+        </header>  
+        <h1 class="titulo">Bem-vindo ao JOKENPO</h1>
+        <p class="subtitulo">Escolha uma das opções disponiveis:</p>
+        <br>
+        <input class="escolha__jogador" type="text" name="jogador" id="jogador"> VS
+        <input class="escolha__computador" type="text" name="computador" id="computador">
+        <br><br>
+        <button  class="botao1" value="Jogar" onclick="jogar()">▶️</button>
+        <button class="botao2" value="Recomecar" onclick="recomecar()">🔄</button>
+        <script src="./src/JS/jogo4.js"></script>
+        <br><br>
+        <div class="resultado" id="res"></div>
+    </body>
+</html>

@@ -1,0 +1,242 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 25px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.corpo{
+    background-color:coral;
+}
+header{
+    display: inline-flex;
+}
+.Menu{
+    position: fixed;
+    top: 0;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+.Menu a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.Menu2{
+    position: fixed;
+    top: 0;
+    margin-left: 2%;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.Menu2 a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 54px;
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.emojis{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 9.51%;
+    background-color: dodgerblue;
+    color: white;
+    width: 9.70rem;
+    padding: 10px;
+    margin-top: 30%;
+}
+.titulo{
+    font-size: 35px;
+    margin-top: -12%;
+    text-align: center;
+}
+.subtitulo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+.emoji{
+    margin-left: 2rem;
+}
+.escolha__jogador{
+    padding: 5%;
+    border-radius: 5%;
+    margin-left: 32rem;
+    border: none;
+    font-size: 40px;
+    width: 13%;
+    margin-top: 4%;
+    background-color: dodgerblue;
+}
+.escolha__computador{
+    padding: 5%;
+    border-radius: 5%;
+    border: none;
+    font-size: 40px;
+    width: 13%;
+    background-color: dodgerblue;
+}
+.botao1{
+    padding: 2%;
+    border-radius: 5%;
+    margin-left: 39rem;
+    border: none;
+    margin-top: 2%;
+    box-shadow: none;
+    font-size: 30px;
+    background-color: coral;
+}
+.botao2{
+    padding: 2%;
+    border-radius: 5%;
+    border: none;
+    box-shadow: none;
+    font-size: 30px;
+    background-color: coral;
+}
+.resultado{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+}
+.score{
+    font-size: 17px;
+}
+@media screen and (max-width: 414px) {
+    .titulo{
+        margin-top: 10%;
+        font-size: 30px;
+    }
+    .subtitulo{
+        margin-top: 10%;
+    }
+    .emoji{
+        margin-left: 1.5rem;
+        font-size: 20px;
+    }
+    .Menu{
+        font-size: 15px;
+    }
+    .Menu2{
+        font-size: 15px;
+    }
+    .Menu2 a{
+        margin-left: 60px;
+    }
+    .emojis{
+        width: 7rem;
+        margin-left: 13.5%;
+    }
+    .escolha__jogador{
+        margin-left: 14%;
+        padding: 10%;
+        width: 30%;
+    }
+    .escolha__computador{
+        padding: 10%;
+        width: 30%;
+    }
+    .botao1{
+        margin-left: 38%;
+    }
+    .score{
+    font-size: 14.6px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .titulo{
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    .subtitulo{
+        margin-top: 10%;
+        font-size: 15px;
+    }
+    .emoji{
+        margin-left: 1.5rem;
+        font-size: 15px;
+    }
+    .Menu{
+        font-size: 15px;
+    }
+    .Menu2{
+        font-size: 15px;
+    }
+    .Menu2 a{
+        margin-left: 60px;
+    }
+    .emojis{
+        width: 6.98rem;
+        margin-left: 13.5%;
+    }
+    .escolha__jogador{
+        margin-left: 15%;
+        padding: 10%;
+        width: 30%;
+    }
+    .escolha__computador{
+        padding: 10%;
+        width: 30%;
+    }
+    .botao1{
+        margin-left: 36%;
+    }
+    .score{
+    font-size: 14.6px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .titulo{
+        margin-top: 10%;
+        font-size: 20px;
+    }
+    .subtitulo{
+        margin-top: 10%;
+        font-size: 15px;
+    }
+    .emoji{
+        margin-left: 1.5rem;
+        font-size: 15px;
+    }
+    .Menu{
+        font-size: 15px;
+    }
+    .Menu2{
+        font-size: 15px;
+    }
+    .Menu2 a{
+        margin-left: 60px;
+    }
+    .emojis{
+        width: 6.9rem;
+        margin-left: 13.5%;
+    }
+    .escolha__jogador{
+        margin-left: 10%;
+        padding: 10%;
+        width: 33%;
+    }
+    .escolha__computador{
+        padding: 10%;
+        width: 33%;
+    }
+    .botao1{
+        margin-left: 35%;
+    }
+    .score{
+    font-size: 14.6px;
+    margin-bottom: 1%;
+    }
+}
