@@ -116,57 +116,21 @@ header{
 }
 @media screen and (max-width: 414px) {
     .titulo{
-        margin-top: 10%;
-        font-size: 30px;
-    }
-    .subtitulo{
-        margin-top: 10%;
-    }
-    .emoji{
-        margin-left: 1.5rem;
-        font-size: 20px;
-    }
-    .Menu{
-        font-size: 15px;
-    }
-    .Menu2{
-        font-size: 15px;
-    }
-    .Menu2 a{
-        margin-left: 60px;
-    }
-    .emojis{
-        width: 7rem;
-        margin-left: 13.5%;
-    }
-    .escolha__jogador{
-        margin-left: 14%;
-        padding: 10%;
-        width: 30%;
-    }
-    .escolha__computador{
-        padding: 10%;
-        width: 30%;
-    }
-    .botao1{
-        margin-left: 38%;
-    }
-    .score{
-    font-size: 14.6px;
-    }
-}
-@media screen and (max-width: 375px) {
-    .titulo{
-        margin-top: 10%;
+        margin-top: 10em;
         font-size: 25px;
     }
     .subtitulo{
         margin-top: 10%;
-        font-size: 15px;
     }
     .emoji{
         margin-left: 1.5rem;
-        font-size: 15px;
+        font-size: 16px;
+        position: fixed;
+        display: contents;
+    }
+    .emoji3{
+        font-size: 16px;
+        margin-left: 1.7em;
     }
     .Menu{
         font-size: 15px;
@@ -174,12 +138,23 @@ header{
     .Menu2{
         font-size: 15px;
     }
+    .Menu a{
+        position: fixed;
+        width: 59px;
+        margin-top: -10px;
+    }
     .Menu2 a{
         margin-left: 60px;
+        position: fixed;
+        width: 59px;
+        margin-top: -10px;
     }
     .emojis{
-        width: 6.98rem;
-        margin-left: 13.5%;
+        width: 111px;
+        margin-left: 3.7%;
+        margin-top: 6%;
+        position: fixed;
+        display: block;
     }
     .escolha__jogador{
         margin-left: 15%;
@@ -191,16 +166,17 @@ header{
         width: 30%;
     }
     .botao1{
-        margin-left: 36%;
+        margin-left: 35%;
     }
     .score{
-    font-size: 14.6px;
+        font-size: 14.6px;
+        margin-top: 10%;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .titulo{
-        margin-top: 10%;
-        font-size: 20px;
+        margin-top: 14rem;
+        font-size: 25px;
     }
     .subtitulo{
         margin-top: 10%;
@@ -208,7 +184,73 @@ header{
     }
     .emoji{
         margin-left: 1.5rem;
+        font-size: 16px;
+        position: fixed;
+        display: contents;
+    }
+    .emoji3{
+        font-size: 16px;
+        margin-left: 1.7em;
+    }
+    .Menu{
         font-size: 15px;
+    }
+    .Menu2{
+     font-size: 15px;
+    }
+    .Menu a{
+        position: fixed;
+        width: 59px;
+        margin-top: -10px;
+    }
+    .Menu2 a{
+        margin-left: 60px;
+        position: fixed;
+        width: 59px;
+        margin-top: -10px;
+    }
+    .emojis{
+        width: 112px;
+        margin-left: 4%;
+        margin-top: 6%;
+        position: fixed;
+        display: block;
+    }
+    .escolha__jogador{
+        margin-left: 14%;
+        padding: 10%;
+        width: 30%;
+    }
+    .escolha__computador{
+        padding: 10%;
+        width: 30%;
+    }
+    .botao1{
+        margin-left: 35%;
+    }
+    .score{
+        font-size: 14.6px;
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .titulo{
+        margin-top: 10em;
+        font-size: 25px;
+    }
+    .subtitulo{
+        margin-top: 10%;
+        font-size: 15px;
+    }
+    .emoji{
+        margin-left: 1.5rem;
+        font-size: 16px;
+        position: fixed;
+        display: contents;
+    }
+    .emoji3{
+        font-size: 16px;
+        margin-left: 1.7em;
     }
     .Menu{
         font-size: 15px;
@@ -216,12 +258,23 @@ header{
     .Menu2{
         font-size: 15px;
     }
+    .Menu a{
+        position: fixed;
+        width: 59px;
+        margin-top: -10px;
+    }
     .Menu2 a{
         margin-left: 60px;
+        position: fixed;
+        width: 59px;
+        margin-top: -10px;
     }
     .emojis{
-        width: 6.9rem;
-        margin-left: 13.5%;
+        width: 110px;
+        margin-left: 4.7%;
+        margin-top: 7%;
+        position: fixed;
+        display: block;
     }
     .escolha__jogador{
         margin-left: 10%;
@@ -233,10 +286,10 @@ header{
         width: 33%;
     }
     .botao1{
-        margin-left: 35%;
+        margin-left: 32%;
     }
     .score{
-    font-size: 14.6px;
-    margin-bottom: 1%;
+        font-size: 13px;
+        margin-bottom: 1%;
     }
 }
