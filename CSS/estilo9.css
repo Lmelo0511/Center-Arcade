@@ -168,6 +168,12 @@ header{
     .botao1{
         margin-left: 35%;
     }
+    .resultado{
+        font-size: 20px;
+        text-align: center;
+        margin-top: -32rem;
+        margin-left: 6em;
+    }
     .score{
         font-size: 14.6px;
         margin-top: 10%;
@@ -228,6 +234,12 @@ header{
     .botao1{
         margin-left: 35%;
     }
+    .resultado{
+        font-size: 20px;
+        text-align: center;
+        margin-top: -32rem;
+        margin-left: 6em;
+    }
     .score{
         font-size: 14.6px;
         margin-top: 10%;
@@ -287,6 +299,12 @@ header{
     }
     .botao1{
         margin-left: 32%;
+    }
+    .resultado{
+        font-size: 20px;
+        text-align: center;
+        margin-top: -32rem;
+        margin-left: 6em;
     }
     .score{
         font-size: 13px;
