@@ -183,7 +183,7 @@ header{
 }
 @media screen and (max-width: 375px) {
     .titulo{
-        margin-top: 20rem;
+        margin-top: 22rem;
         font-size: 20px;
     }
     .subtitulo{
@@ -192,12 +192,12 @@ header{
     }
     .emoji{
         margin-left: 1.5rem;
-        font-size: 16px;
+        font-size: 14px;
         position: fixed;
         display: contents;
     }
     .emoji3{
-        font-size: 16px;
+        font-size: 14px;
         margin-left: 1.7em;
     }
     .Menu{
