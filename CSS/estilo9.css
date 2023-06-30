@@ -247,7 +247,7 @@ header{
 }
 @media screen and (max-width: 320px) {
     .titulo{
-        margin-top: 10em;
+        margin-top: 8.5em;
         font-size: 25px;
     }
     .subtitulo{
