@@ -10,7 +10,7 @@ var appleX = (appleY = 15);
 var pontuacao = 0;
 var jogoReiniciado = false;
 var pontuacaoElemento = document.createElement("p");
-pontuacaoElemento.classList.add("pontuacao");
+var res = document.getElementById("resultado");
 document.body.appendChild(pontuacaoElemento);
 
 window.onload = function() {
@@ -95,7 +95,6 @@ window.onload = function() {
             nextX = nextY = 0;
             appleX = (appleY = 15);
             pontuacao = 0;
-            pontuacaoElemento.innerText = "Pontuação: " + pontuacao;
         }
         
         if (cobraEixoX === appleX && cobraEixoY === appleY) {
@@ -103,7 +102,7 @@ window.onload = function() {
             appleX = Math.floor(Math.random() * tamanhoTela);
             appleY = Math.floor(Math.random() * tamanhoTela);
             pontuacao++;
-            pontuacaoElemento.innerText = "Pontuação: " + pontuacao;
+            res.innerHTML = "Pontuação: " + pontuacao;
         }
 
         ctx.fillStyle = "green";
