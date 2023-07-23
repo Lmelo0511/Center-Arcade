@@ -55,3 +55,8 @@ header{
 .comida{
     background-color: red;
 }
+@media screen and (max-width: 450px) {
+    #canvas{
+        width: 80%;
+    }
+}
