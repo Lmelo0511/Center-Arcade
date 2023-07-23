@@ -43,6 +43,9 @@ header{
     right: 0;
     border-radius: 15px;
 }
+#resultado{
+    color: white;
+}
 .corpo{
     background-color: darkgreen;
 }
