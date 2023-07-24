@@ -58,5 +58,6 @@ header{
 @media screen and (max-width: 450px) {
     #canvas{
         width: 80%;
+        top: 10em;
     }
 }
