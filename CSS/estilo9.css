@@ -85,6 +85,9 @@ header{
     color: white;
 }
 @media screen and (max-width: 414px) {
+    .voltar{
+        margin-left: 5%;
+    }
     .titulo{
         margin-top: 10em;
         font-size: 20px;
