@@ -9,16 +9,12 @@
     <body class="corpo">
         <header class="Menu__link">
             <div class="Menu">
-                <a class="voltar" href="jogo8.html">Voltar</a>
-            </div>
-            <div class="Menu2">
-              <a class="inicio" href="jogo1.html">Início</a>
-            </div>
-            <div class="emojis">
+                <a class="voltar" href="jogo8.html">Voltar |</a>
+                <a class="inicio" href="jogo1.html">Início</a>
                 <br>
                 <p class="emoji" id="pedra">0 - ✊🏻</p>
                 <p class="emoji" id="papel">1 - ✋🏻</p>
-                <p class="emoji3" id="tesoura">2 - ✌🏻</p>
+                <p class="emoji" id="tesoura">0 - ✌🏻</p>
                 <br>
                 <p class="score">Jogador: <span id="pontuacaoJogador">0</span></p>
                 <p class="score">Computador: <span id="pontuacaoComputador">0</span></p>
@@ -27,11 +23,16 @@
         <h1 class="titulo">Bem-vindo ao JOKENPO</h1>
         <p class="subtitulo">Escolha uma das opções disponiveis:</p>
         <br>
-        <input class="escolha__jogador" type="text" name="jogador" id="jogador"> VS
-        <input class="escolha__computador" type="text" name="computador" id="computador">
+        <div class="inputs">
+            <input class="escolhas" type="text" name="jogador" id="jogador"> 
+            <label class="versus">VS</label>
+            <input class="escolhas" type="text" name="computador" id="computador">
+        </div>
         <br><br>
-        <button  class="botao1" value="Jogar" onclick="jogar()">▶️</button>
-        <button class="botao2" value="Recomecar" onclick="recomecar()">🔄</button>
+        <div class="botoes">
+            <button  class="botao" value="Jogar" onclick="jogar()">▶️</button>
+            <button class="botao" value="Recomecar" onclick="recomecar()">🔄</button>
+        </div>
         <script src="./src/JS/jogo4.js"></script>
         <br><br>
         <div class="resultado" id="res"></div>
