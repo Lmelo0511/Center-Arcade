@@ -58,7 +58,8 @@ header{
     border-radius: 5%;
     border: none;
     font-size: 40px;
-    width: 13%;
+    width: 14%;
+    text-align: center;
     margin-top: 4%;
     background-color: dodgerblue;
     margin: 0% 15px;
@@ -104,11 +105,14 @@ header{
     .versus{
         margin-top: 13%;
     }
+    .botao{
+        margin-top: -5%
+    }
     .resultado{
         font-size: 20px;
         text-align: center;
-        margin-top: -31rem;
-        margin-left: 6em;
+        margin-top: -34rem;
+        margin-left: 7em;
     }
     .score{
         font-size: 14.6px;
