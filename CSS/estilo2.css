@@ -148,98 +148,12 @@ header {
     }
 }
 @media screen and (max-width: 375px){
-    .Menu{
-        padding-top: 15px;
-        width: 100%;
-        text-align: left;
-        font-size: 15px;
-    }
-    .imagem__amostra{
-        width: 50%;
-        height: 50%;       
-        border-radius: 15px;
-        padding-top: 5%;
-        margin: 0px 25% 0px 0px;
-        float: right;
-    }
-    .imagem__amostra2{
-        width: 50%;
-        height: 50%;       
-        border-radius: 15px;
-        padding-top: 5%;
-        justify-content: space-between;
-        margin: 0px 0px 0px 25%;
-        float: left;
-    }
-    header {
-        display: inline-block;
-        justify-content: center;
-        padding-top: 5%;
-    }
     .texto__jogo2{
-        justify-content: space-between;
-        font-size: 10px;
         margin-left: 67px;
     } 
-    .Iniciar__jogo {
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        padding: 10px;
-        margin-top: 15px;
-        width: 100%;
-        margin-left: 40%;
-        border: none;
-        background-color: dodgerblue;
-        text-align: center;
-        font-size: 10px;
-    }
 }
 @media screen and (max-width: 320px){
-    .Menu{
-        padding-top: 15px;
-        width: 100%;
-        text-align: left;
-        font-size: 15px;
-        border-radius: 0px;
-    }
-    .imagem__amostra{
-        width: 50%;
-        height: 50%;       
-        border-radius: 15px;
-        padding-top: 5%;
-        margin: 0px 25% 0px 0px;
-        float: right;
-    }
-    .imagem__amostra2{
-        width: 50%;
-        height: 50%;       
-        border-radius: 15px;
-        padding-top: 5%;
-        justify-content: space-between;
-        margin: 0px 0px 0px 25%;
-        float: left;
-    }
-    header {
-        display: inline-block;
-        padding-top: 5%;
-    }
     .texto__jogo2{
-        justify-content: space-between;
-        font-size: 10px;
         margin-left: 43px;
     } 
-    .Iniciar__jogo {
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        padding: 10px;
-        margin-top: 15px;
-        width: 100%;
-        margin-left: 40%;
-        border: none;
-        background-color: dodgerblue;
-        text-align: center;
-        font-size: 10px;
-    }
 }
