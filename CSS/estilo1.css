@@ -12,8 +12,8 @@ body{
     background-color: dodgerblue;
     padding: 15px;
     border-radius: 5px;
-    margin-left: 25%;
     width: max-content;
+    margin-top: 10%
 }
 .botao {
     text-decoration: none;
