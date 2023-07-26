@@ -147,17 +147,6 @@ hr{
         top: 55%;
         padding: 30px;
     }
-    .Titulo{
-        font-size: 17px;
-    }
-    .Digite__numero{
-        font-size: 15px;
-        margin-left: -3%;
-    }
-    .reiniciando__jogo{
-        font-size: 14px;
-        padding: 5px;
-    }
     .informando__mensagem{
         font-size: 15px;
     }
@@ -172,20 +161,6 @@ hr{
     .Jogatina{
         top: 70%;
         padding: 15px;
-    }
-    .Titulo{
-        font-size: 15px;
-    }
-    .Digite__numero{
-        font-size: 13px;
-        margin-left: -3%;
-    }
-    .reiniciando__jogo{
-        font-size: 14px;
-        padding: 5px;
-    }
-    .informando__mensagem{
-        font-size: 15px;
     }
     .Menu{
         font-size: 15px;
