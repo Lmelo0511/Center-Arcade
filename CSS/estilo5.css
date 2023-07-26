@@ -142,3 +142,24 @@ header {
         margin-left: 43px;
     } 
 }
+@media screen and (max-width: 1400px) {
+    .container-jogo {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .imagem__amostra,
+    .imagem__amostra2 {
+        margin: 1rem auto;
+        padding: 0;
+    }
+
+    .texto-2 {
+        order: 0;
+    }
+
+    .imagem__amostra2 {
+        order: 1;
+    }
+}
