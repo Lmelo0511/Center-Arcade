@@ -34,6 +34,11 @@ header{
     padding: 30px;
     color: white;
 }
+.container-jogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .texto__jogo{
     padding: 10%;
     color: white;
@@ -146,13 +151,6 @@ header {
         font-size: 10px;
     }
 }
-
-.container-jogo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 @media screen and (max-width: 375px){
     .texto__jogo2{
         margin-left: 67px;
