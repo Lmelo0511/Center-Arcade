@@ -40,6 +40,7 @@ header{
     font-size: 20px;
     display: inline-block;
     justify-content: space-between;
+    width: auto;
 }
 .imagem__amostra{
     width: 20%;
@@ -112,7 +113,6 @@ header {
         border-radius: 15px;
         padding-top: 5%;
         margin: 0px 25% 0px 0px;
-        float: right;
     }
     .imagem__amostra2{
         width: 50%;
@@ -121,7 +121,6 @@ header {
         padding-top: 5%;
         justify-content: space-between;
         margin: 0px 0px 0px 25%;
-        float: left;
     }
     header {
         display: inline-block;
@@ -147,13 +146,42 @@ header {
         font-size: 10px;
     }
 }
+
+.container-jogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media screen and (max-width: 375px){
     .texto__jogo2{
         margin-left: 67px;
-    } 
+    }
 }
 @media screen and (max-width: 320px){
     .texto__jogo2{
         margin-left: 43px;
-    } 
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container-jogo {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .imagem__amostra,
+    .imagem__amostra2 {
+        margin: 1rem auto;
+        padding: 0;
+    }
+
+    .texto-2 {
+        order: 0;
+    }
+
+    .imagem__amostra2 {
+        order: 1;
+    }
 }
