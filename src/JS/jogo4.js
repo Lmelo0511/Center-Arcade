@@ -1,19 +1,14 @@
-let pontuacaoJogador = 0;
-let pontuacaoComputador = 0;
+var pontuacaoJogador = 0;
+var pontuacaoComputador = 0;
 
 function jogar() {
     const jogadorInput = document.getElementById("jogador");
     const computadorInput = document.getElementById("computador");
-  
     const escolhaJogador = parseInt(jogadorInput.value);
-    const escolhaComputador = Math.floor(Math.random() * 3); // Escolha aleatória do computador (0, 1 ou 2)
-    const resultado = verificarResultado(escolhaJogador, escolhaComputador)
 
-    if(resultado === "Jogador VENCEU") {
-        pontuacaoJogador++;
-    } else if (resultado === "Computador VENCEU") {
-        pontuacaoComputador++;
-    }
+    // Escolha aleatória do computador (0, 1 ou 2)
+    const escolhaComputador = Math.floor(Math.random() * 3);
+    const resultado = verificarResultado(escolhaJogador, escolhaComputador);
   
     // Atualizar os campos de entrada com as escolhas
     jogadorInput.value = getEscolhaNome(escolhaJogador);
@@ -23,7 +18,7 @@ function jogar() {
     document.getElementById("pontuacaoJogador").textContent = pontuacaoJogador;
     document.getElementById("pontuacaoComputador").textContent = pontuacaoComputador;
 }
-  
+
 function getEscolhaNome(escolha) {
     switch (escolha) {
       case 0:
@@ -36,7 +31,7 @@ function getEscolhaNome(escolha) {
         return "";
     }
 }
-  
+
 function verificarResultado(jogador, computador) {
     var res = document.getElementById("res")
     if (computador == 0) {
@@ -45,9 +40,11 @@ function verificarResultado(jogador, computador) {
         }
         else if (jogador == 1) {
             res.innerHTML = "Jogador VENCEU"
+            pontuacaoJogador++;
         }
         else if (jogador == 2) {
             res.innerHTML = "Computador VENCEU"
+            pontuacaoComputador++;
         }
         else {
             res.innerHTML = "Jogada ÍNVALIDA!"
@@ -56,12 +53,14 @@ function verificarResultado(jogador, computador) {
     else if (computador == 1) {
         if (jogador == 0) {
             res.innerHTML = "Computador VENCEU"
+            pontuacaoComputador++;
         }
         else if (jogador == 1) {
             res.innerHTML = "EMPATE"
         }
         else if (jogador == 2) {
             res.innerHTML = "Jogador VENCEU"
+            pontuacaoJogador++;
         }
         else {
             res.innerHTML = "Jogada Ínvalida"
@@ -70,10 +69,12 @@ function verificarResultado(jogador, computador) {
     else if (computador == 2) {
         if (jogador == 0) {
             res.innerHTML = "Jogador VENCEU"
+            pontuacaoJogador++;
         }
         else if (jogador == 1) {
             res.innerHTML = "Computador VENCEU"
-        } 
+            pontuacaoComputador++;
+        }
         else if (jogador == 2) {
             res.innerHTML = "EMPATE"
         }
@@ -81,11 +82,10 @@ function verificarResultado(jogador, computador) {
             res.innerHTML = "Jogada ÍNVALIDA"
         }
     }  
-}
+}   
 
 function recomecar() {
     document.getElementById("jogador").value = ""
     document.getElementById("computador").value = ""
     res.innerHTML = ""
-    console.log("Jogo REINICIADO")
-}
+}   
