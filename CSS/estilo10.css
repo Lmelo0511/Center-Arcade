@@ -111,22 +111,14 @@ header {
         text-align: left;
         font-size: 15px;
     }
-    .imagem__amostra{
+    .imagem__amostra,
+    .imagem__amostra2{
         width: 50%;
         height: 50%;       
         border-radius: 15px;
         padding-top: 5%;
         margin: 0px 25% 0px 0px;
         float: right;
-    }
-    .imagem__amostra2{
-        width: 50%;
-        height: 50%;       
-        border-radius: 15px;
-        padding-top: 5%;
-        justify-content: space-between;
-        margin: 0px 0px 0px 25%;
-        float: left;
     }
     header {
         display: inline-block;
@@ -173,6 +165,7 @@ header {
     .imagem__amostra2 {
         margin: 1rem auto;
         padding: 0;
+        width: 40%
     }
 
     .texto-2 {
