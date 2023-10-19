@@ -115,3 +115,13 @@
     margin-top: -2.5%;
     position: relative;
 }
+
+.titleTowers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20.3em;
+    font-size: 20px;
+    margin-top: 1%;
+    color: var(--white);
+}
