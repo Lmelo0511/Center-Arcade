@@ -1,13 +1,30 @@
-body{
-    height: 100%;
-    margin: 0;
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.body{
+    height: 100%;
+    margin: 0;
+}
+.menu{
+    padding: 2%;
+    background-color: gray;
+    width: 100%;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+    padding: 7em;
+    font-size: unset;
+}
+.botaMenu{
+    margin-left: 2%;
+}
+
 .botoes {
    margin: auto;
    width: max-content;
@@ -28,6 +45,7 @@ body{
     text-align: center;
     font-size: 30px;
     padding: 30px;
+    margin-top: 5%;
 }
 .informacoes__central2{
     padding-bottom: 35px;
@@ -81,11 +99,6 @@ body{
     margin-left: 2.5%;
     height: 62%;
     width: 95%;
-}
-header{
-    justify-content: space-between;
-    display: inline-flex;
-    margin-left: 42%;
 }
 @media screen and (max-width: 414px){
     .Titulo {
