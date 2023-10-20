@@ -82,25 +82,25 @@
     align-items: center;
 }
 
-#disco1{
+.disco1{
     background-color: orange;
     width: 15em;
     height: 50px;
 }
 
-#disco2{
+.disco2{
     background-color: green;
     width: 12em;
     height: 50px;
 }
 
-#disco3{
+.disco3{
     background-color: blue;
     width: 9em;
     height: 50px;
 }
 
-#disco4{
+.disco4{
     background-color: red;
     width: 6em;
     height: 50px;
