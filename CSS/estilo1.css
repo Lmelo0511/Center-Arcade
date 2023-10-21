@@ -38,7 +38,8 @@
     margin: 0% 10px;
 }
 .informacoes__central{
-    background-color: white
+    background-color: white;
+    padding-bottom: 35px;
 }
 .Titulo{
     color: black;

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/estilo13.css">
+</head>
+<body class="corpo">
+    <header class="Menu__link">
+        <div class="Menu">
+            <a class="voltar" href="jogo12.html">Voltar |</a>
+            <a class="inicio" href="jogo1.html">Início</a>
+            <hr>
+            <p class="placar">Movimentos: <span id="movimentos" class="pontuacao">0</span></p>
+            <button id="botao" class="botao" type="button">Recomeçar</button>
+        </div>
+    </header>
+    <h1 class="titulo">Jogo - Torre De hanoi</h1>
+    <main class="conteudos">
+        <section class="torres">
+            <section class="torre" id="torre1">
+                <div class="coluna" id="coluna1">
+                    <div class="disco1 torre1 posicao4 "></div>
+                    <div class="disco2 torre1 posicao3 "></div>
+                    <div class="disco3 torre1 posicao2"></div>
+                    <div class="disco4 torre1 posicao1 "></div>
+                </div>
+            </section>
+            <section class="torre" id="torre2">
+                <div class="coluna" id="coluna2"></div>
+            </section>
+            <section class="torre" id="torre3">
+                <div class="coluna" id="coluna3"></div>
+            </section>
+        </section>
+        <div class="base"></div>
+        <div class="titleTowers">
+            <p>A</p>
+            <p>B</p>
+            <p>C</p>
+        </div>
+    </main>
+    <script src="./src/JS/jogo6.js"></script>
+</body>
+</html>
