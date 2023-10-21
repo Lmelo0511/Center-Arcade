@@ -3,7 +3,7 @@ let torre1 = document.getElementById("torre1");
 let torre2 = document.getElementById("torre2");
 let torre3 = document.getElementById("torre3");
 
-//Clique das Torres e posições
+//Clique das Torres
 torre1.addEventListener("click", clicado);
 torre2.addEventListener("click", clicado);
 torre3.addEventListener("click", clicado);
