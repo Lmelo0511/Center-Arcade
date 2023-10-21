@@ -8,6 +8,20 @@
         <title>Center Arcade</title>
     </head>
     <body class="corpo">
+        <div class="topnav">
+            <a href="#home" class="active"></a>
+            <div id="myLinks">
+              <a href="#informacao2">Adivinhe o Número</a>
+              <a href="#informacao3">Jogo Da Velha</a>
+              <a href="#informacao4">Snake Arcade</a>
+              <a href="#informacao5">JOKENPO</a>
+              <a href="#informacao6">Jogo Da Velha</a>
+              <a href="#informacao7">Torre de Hanói</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars">| | |</i>
+            </a>
+          </div>
         <div class="informacoes__central">
             <h1 class="Titulo">Bem-vindo ao Center Arcade</h1>
             <p class="texto__central">
@@ -111,5 +125,15 @@
                 <a class="botao" href="jogo13.html">Jogar Agora</a>
             </div>
         </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+            }
+        </script>
     </body>
 </html>
