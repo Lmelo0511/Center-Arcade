@@ -125,3 +125,28 @@
     margin-top: 1%;
     color: var(--white);
 }
+
+@media screen and (max-width: 1200px){
+    .Menu{
+        font-size: 25px;
+    }
+    .botao{
+        font-size: 25px;
+    }
+    .titulo{
+        text-align: end;
+        margin-right: -3.5em;
+        position: initial;
+    }
+    .torres{
+        margin-top: 15%;
+    }
+    .base{
+        margin-left: 2em;
+        position: inherit;
+    }
+    .titleTowers{
+        position: absolute;
+        margin-left: 11em;
+    }
+}
